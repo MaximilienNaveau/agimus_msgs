@@ -28,9 +28,7 @@ stdenv.mkDerivation {
   ];
 
   propagatedBuildInputs = [
-    rosPackages.humble.rosidl-typesupport-c
-    rosPackages.humble.rosidl-typesupport-introspection-c
-    rosPackages.humble.rosidl-runtime-py
+    rosPackages.humble.rosidl-default-runtime
     rosPackages.humble.sensor-msgs
     rosPackages.humble.std-msgs
   ];
